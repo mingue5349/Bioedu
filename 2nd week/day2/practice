@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+
+cond = int(input ("write cond: "))
+
+if cond:
+    print("A")
+    print("B")
+else:
+    print("Z")
+print("good bye~")
