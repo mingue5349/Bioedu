@@ -29,7 +29,7 @@ for k, v in d.items():  # items() : 변수에 해당하는 값을 튜플로 반�
 
 print (total)
 
-with open ('count_covid19_ntd.txt','w') as f1:
+with open ('count_covid19_ntd.txt', 'w') as f1:
     for i in d.keys():
         f1.write(i + ': ' + str(d[i]) + '\n')
 
