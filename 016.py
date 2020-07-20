@@ -32,3 +32,5 @@ print (total)
 with open ('count_covid19_ntd.txt','w') as f1:
     for i in d.keys():
         f1.write(i + ': ' + str(d[i]) + '\n')
+
+        
