@@ -1,0 +1,17 @@
+[
+    {
+        "#id": "1",
+        "sequence": "AC",
+        "species": "In"
+    },
+    {
+        "#id": "2",
+        "sequence": "TT",
+        "species": "Her"
+    },
+    {
+        "#id": "3",
+        "sequence": "GC",
+        "species": "Ep"
+    }
+]
