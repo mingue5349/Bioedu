@@ -1,3 +1,4 @@
+# n bp 길이 NTD 의 모든 경우의 수를 출력해보자
 import sys
 
 n = int(sys.argv[1])
