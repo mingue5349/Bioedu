@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR1533626_1.trim.fq
+PASS	Per base sequence quality	SRR1533626_1.trim.fq
+PASS	Per sequence quality scores	SRR1533626_1.trim.fq
+WARN	Per base sequence content	SRR1533626_1.trim.fq
+PASS	Per base GC content	SRR1533626_1.trim.fq
+PASS	Per sequence GC content	SRR1533626_1.trim.fq
+PASS	Per base N content	SRR1533626_1.trim.fq
+WARN	Sequence Length Distribution	SRR1533626_1.trim.fq
+PASS	Sequence Duplication Levels	SRR1533626_1.trim.fq
+PASS	Overrepresented sequences	SRR1533626_1.trim.fq
+WARN	Kmer Content	SRR1533626_1.trim.fq
