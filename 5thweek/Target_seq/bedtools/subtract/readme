@@ -1,0 +1,18 @@
+bedtools subtract -a A.bed -b B.bed
+
+# excute time : 2016-08-07 15:33:40 : option -A
+bedtools subtract -a A.bed -b B.bed -A 
+
+bedtools subtract -a A.bed -b B.bed -wo
+#chr1	100	200	chr1	100	180	
+
+bedtools subtract -a A.bed -b B.bed -wb
+
+# overlap over 10% 
+bedtools subtract -a A.bed -b B.bed -f 0.10
+
+# overlap over 80%
+bedtools subtract -a A.bed -b B.bed -f 0.80
+
+
+#bedtools subtract -a C.bed -b D.bed

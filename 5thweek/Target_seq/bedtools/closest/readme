@@ -1,0 +1,33 @@
+bedtools closest -a A.bed -b B.bed
+
+bedtools closest -a C.bed -b D1.bed D2.bed
+
+bedtools closest -a C.bed -b D1.bed D2.bed -names D1 D2
+bedtools closest -a C.bed -b D1.bed D2.bed -filenames
+
+
+# distance
+bedtools closest -a a.bed -b b1.bed b2.bed 
+bedtools closest -a a.bed -b b1.bed b2.bed -d
+
+# default
+bedtools closest -a a.bed -b b1.bed b2.bed -mdb each -d
+bedtools closest -a a.bed -b b1.bed b2.bed -mdb all -d
+
+# ignore overlap
+bedtools closest -a a.bed -b b.bed
+bedtools closest -a a.bed -b b.bed -io
+
+# controlling how ties 
+
+bedtools closest -a a.bed -b E.bed 
+# default
+bedtools closest -a a.bed -b E.bed -t all
+bedtools closest -a a.bed -b E.bed -t first
+bedtools closest -a a.bed -b E.bed -t last 
+
+
+
+
+
+

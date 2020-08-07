@@ -1,0 +1,3 @@
+bedtools window -a A.bed -b B.bed
+bedtools window -a A.bed -b B.bed -w 5000
+

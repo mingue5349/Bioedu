@@ -1,0 +1,4 @@
+
+bedtools jaccard -a A.bed -b B.bed
+
+bedtools jaccard -a A.bed -b B.bed -f 0.6

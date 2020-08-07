@@ -1,0 +1,13 @@
+# excute time : 2016-08-04 17:55:49 : make B.bed
+perl -F'\t' -anle'print join "\t", @F[0..2], $F[2]+11, $F[3]' A.bed > B.bed 
+
+
+# excute time : 2016-08-04 17:57:03 : example 1 default
+bedtools groupby -i A.bed -c 4 -o mean  
+
+bedtools groupby -i A.bed -g 5 -c 4 -o mean
+
+# excute time : 2016-08-04 22:28:33 : example 2. multiple operation
+bedtools groupby -i A.bed -g 5 -c 4,4,4 -o sum,mean,min 
+
+

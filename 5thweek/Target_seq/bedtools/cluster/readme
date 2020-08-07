@@ -1,0 +1,7 @@
+# perl -nle'if(/^bedtools/){print "$_";print `$_`}' readme
+
+bedtools cluster -i A.bed 
+
+bedtools cluster -i B.bed 
+bedtools cluster -i B.bed -d 400
+
