@@ -1,4 +1,0 @@
-# excute time : 2018-02-01 21:31:57 : make cmd.result
-for i in intersect subtract closest cluster complement coverage flank genomecov getfasta jaccard map merge slop window groupby ; do (cd $i && for j in $(grep -n ^bedtools readme | cut -d":" -f1); do e $j ; done) ; done > cmd.result & 
-
-

@@ -1,9 +1,0 @@
-# perl -nle'if(/^bedtools/){print "$_";print `$_`}' readme 
-
-bedtools getfasta -fi test.fa -bed test.bed -fo stdout
-
-bedtools getfasta -fi test.fa -bed strand.bed -fo stdout
-
-bedtools getfasta -fi test.fa -bed strand.bed -fo stdout -name
-
-bedtools getfasta -fi test.fa -bed strand.bed -fo stdout -name -tab

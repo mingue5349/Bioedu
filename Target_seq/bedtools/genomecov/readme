@@ -1,7 +1,0 @@
-# perl -nle'if(/^bedtools/){print "$_";print `$_`}' readme
-
-bedtools genomecov -i A.bed -g my.genome
-
-# -d Reporting “per-base” genome coverage
-bedtools genomecov -i A.bed -g my.genome -d  | head -15 |  tail -n 10
-

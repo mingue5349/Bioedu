@@ -1,1 +1,0 @@
-bedtools groupby -i B.bed -g 4 -c 2,3,4 -o min,max,count  > Group.Min.Max.bed
