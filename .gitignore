@@ -42,8 +42,12 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-# fasta, fastq #
+# fasta, fastq, etc #
 ################
 
 *.fasta
 *.fastq
+*.bam
+*.sam
+*.fq
+*.fa
