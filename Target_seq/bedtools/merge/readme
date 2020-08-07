@@ -1,0 +1,18 @@
+bedtools merge -i A.bed
+
+bedtools merge -i A.bed -d 1000
+
+bedtools merge -i A.bed -c 1 -o count
+#bedtools merge -i A.bed -c 1,2,3 -o collapse
+
+
+bedtools merge -i A.bed -c 5 -o mean
+
+bedtools merge -i A.bed -c 5 -o mean,min,max
+bedtools merge -i A.bed -c 5,5,5,6 -o mean,min,max,collapse
+
+
+bedtools merge -i B.bed -c 4 -o collapse
+
+bedtools merge -i B.bed -c 4 -o collapse -delim "|"
+

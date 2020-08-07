@@ -1,0 +1,9 @@
+bedtools slop -i A.bed -g my.genome -b 5
+
+bedtools slop -i A.bed -g my.genome -l 2 -r 3
+bedtools slop -i A.bed -g my.genome -b 5000
+
+
+bedtools slop -i B.bed -g my.genome -b 0.5 -pct
+bedtools slop -i B.bed -l 0.5 -r 0.0 -pct -g my.genome
+

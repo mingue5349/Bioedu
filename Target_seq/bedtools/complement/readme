@@ -1,0 +1,3 @@
+perl -nle'if(/^bedtools/){print "$_";print `$_`}' readme
+
+bedtools complement -i A.bed -g my.genome
