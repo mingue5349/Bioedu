@@ -1,0 +1,3 @@
+sample_id	total	mean	granular_third_quartile	granular_median	granular_first_quartile	%_bases_above_1	%_bases_above_5	%_bases_above_10	%_bases_above_20	%_bases_above_30
+NA12891	32484553	0.54	1	1	1	6.0	3.3	2.1	0.8	0.3
+Total	32484553	0.54	N/A	N/A	N/A
