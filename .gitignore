@@ -27,7 +27,7 @@
 *.tar
 *.zip
 *.tgz
-
+*.gtf
  
 # Logs and databases #
 ######################
