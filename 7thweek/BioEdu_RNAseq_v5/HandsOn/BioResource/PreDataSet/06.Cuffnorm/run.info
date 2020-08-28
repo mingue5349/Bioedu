@@ -1,0 +1,5 @@
+param	value
+cmd_line	cuffnorm --output-dir 06.Cuffnorm --labels Control,Experiment --num-threads 8 --library-type fr-unstranded --library-norm-method classic-fpkm --output-format simple-table 04.Cuffmerge/merged.gtf 05.Cuffquant/con/Root-Control-6h/abundances.cxb,05.Cuffquant/con/Root-Control-12h/abundances.cxb,05.Cuffquant/con/Root-Control-24h/abundances.cxb 05.Cuffquant/exp/Root-PA01-6h/abundances.cxb,05.Cuffquant/exp/Root-PA01-12h/abundances.cxb,05.Cuffquant/exp/Root-PA01-24h/abundances.cxb 
+version	2.2.1
+SVN_revision	4237
+boost_version	104700

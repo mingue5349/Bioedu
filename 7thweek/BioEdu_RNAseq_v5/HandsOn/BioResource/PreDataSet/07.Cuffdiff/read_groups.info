@@ -1,0 +1,7 @@
+file	condition	replicate_num	total_mass	norm_mass	internal_scale	external_scale
+05.Cuffquant/con/Root-Control-6h/abundances.cxb	Control	0	8.52046e+06	8.34057e+06	1.02157	1
+05.Cuffquant/con/Root-Control-12h/abundances.cxb	Control	1	8.81498e+06	8.34057e+06	1.05688	1
+05.Cuffquant/con/Root-Control-24h/abundances.cxb	Control	2	8.63231e+06	8.34057e+06	1.03498	1
+05.Cuffquant/exp/Root-PA01-6h/abundances.cxb	Experiment	0	8.65744e+06	8.34057e+06	1.03799	1
+05.Cuffquant/exp/Root-PA01-12h/abundances.cxb	Experiment	1	8.45128e+06	8.34057e+06	1.01327	1
+05.Cuffquant/exp/Root-PA01-24h/abundances.cxb	Experiment	2	6.96695e+06	8.34057e+06	0.835309	1

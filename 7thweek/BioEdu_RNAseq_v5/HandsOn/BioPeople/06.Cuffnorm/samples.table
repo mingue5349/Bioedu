@@ -1,0 +1,7 @@
+sample_id	file	total_mass	internal_scale	external_scale
+Control_0	05.Cuffquant/con/Root-Control-6h/abundances.cxb	9441	1.00525	1
+Control_1	05.Cuffquant/con/Root-Control-12h/abundances.cxb	9456	1.00685	1
+Control_2	05.Cuffquant/con/Root-Control-24h/abundances.cxb	9487	1.01015	1
+Experiment_0	05.Cuffquant/exp/Root-PA01-6h/abundances.cxb	9453	1.00653	1
+Experiment_1	05.Cuffquant/exp/Root-PA01-12h/abundances.cxb	9397	1.00057	1
+Experiment_2	05.Cuffquant/exp/Root-PA01-24h/abundances.cxb	9116	0.970648	1
